@@ -1,0 +1,22 @@
+{
+  "name": "first_mern",
+  "version": "1.0.0",
+  "description": "first mern project",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./index.js --exec babel-node -e js"
+  },
+  "author": "jgparot",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongodb": "^4.1.4",
+    "mongoose": "^6.0.12",
+    "nodemon": "^2.0.14"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1"
+  }
+}
