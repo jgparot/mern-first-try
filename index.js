@@ -7,7 +7,7 @@ const app = express();
 
 // mongoose connection
 mongoose.Promise = global.Promise;
-mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/antiracismdb', {  useNewUrlParser: true,  useUnifiedTopology: true})
+mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/antiracismdb')
 //bodyparser 
 app.use(express.urlencoded({ extended: true}));
 app.use(express.json());
